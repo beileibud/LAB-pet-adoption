@@ -1,8 +1,33 @@
-body{
-    text-align: center;
-}
-.card{
+#app {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(48, 36, 36);
+    background-color: antiquewhite;
+  }
+
+
+  footer{
+    background-color:rgb(189, 178, 162);
+  }
+
+  form{
+    margin: 20px;
+  }
+
+  #btn-cat{
+    background-color: rgb(197, 187, 141);
+  }
+
+  #btn-dog{
+    background-color: rgb(235, 233, 187);
+  }
+  #btn-dino{
+    background-color: rgb(224, 156, 67);
+  }
